@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: cornflowerblue;
+  text-align: center;
+  padding: 10px;
+}
+.body {
+  width: 1350px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+.image {
+  padding-top: 50px;
+}
+.img {
+  width: 200px;
+  object-fit: contain;
+}
